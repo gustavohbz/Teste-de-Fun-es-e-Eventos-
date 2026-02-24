@@ -26,13 +26,13 @@
 <body>
     
     <div id="area"> 
-        Eu amo minha namorada,será?
+        Teste de Funções e Eventos
     </div>
 
     <script>
         let a = document.querySelector('#area') 
         //criei um caminho da variavel chegar até a div
-        //não posso esquecer de colocar as # pois ele discrimina que é um ID a ser procurado
+        //não posso esquecer de colocar as # pois ela discrimina que é um ID a ser procurado
         a.addEventListener('click',clicar)
         a.addEventListener('mouseenter',entrar)
         a.addEventListener('mouseout',sair)
@@ -41,7 +41,7 @@
             window.alert('não clique na DIV');
         }
         function entrar(){
-            a.innerText="com certeza eu nao programei isso";
+            a.innerText="com certeza eu programei isso";
         }
         function sair(){
             a.innerText='fique com o mouse aqui!!!'
@@ -51,4 +51,5 @@
         
      </script>
 </body>
+
 </html>
